@@ -1,1 +1,136 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(32, 136, 177);
+    color: white;
+    padding: 25px;
+    border-radius: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.result-container {
+    text-align: left;
+    margin: 20px auto;
+    width: 45%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.result-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-bottom: 2px solid #d3d3d3; /* Add a line below h2 */
+    padding-bottom: 10px; /* Optional: Adds spacing between h2 and the list */
+}
+
+.result-container ul {
+    padding-left: 40px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 410px;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+    border-color: #66afe9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(203, 50, 50);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#result ul {
+    padding-left: 25px;
+}
+
+#result h3 {
+    
+    font-size: 1.8em;
+    margin-top: 0px;
+    color: #2d3e50;
  
+    font-weight: bold;
+    margin-left: 22px;
+    margin-right: 10px;
+}
+
+
+#result h4 {
+    font-size: 1.4em;
+    color: #34495e;
+    margin-bottom: 10px;
+    padding: left 22px;
+    margin-left: 22px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; /* Increase padding for more space inside the box */
+    text-align: justify;
+    color: #333;
+    background-color: #f9f9f9;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+
+
+
